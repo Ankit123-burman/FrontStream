@@ -4,7 +4,7 @@ function VidePlayer() {
     const [video, setVideo] = React.useState('');
 
     const handelStreamVideo = () =>{
-        setVideo('http://localhost:5000/video')
+        setVideo('https://backend-stream.vercel.app/video')
     }
   return (
     <>
